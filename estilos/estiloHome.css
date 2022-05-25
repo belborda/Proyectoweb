@@ -1,15 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    overflow-x: hidden;
+    font-family: 'Amatic SC', cursive;
 }
 
 
 a {
     text-decoration: none;
-    color: #fff;
 }
 
 
