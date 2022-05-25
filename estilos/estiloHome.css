@@ -4,7 +4,6 @@ body {
     font-family: 'Amatic SC', cursive;
 }
 
-
 a {
     text-decoration: none;
 }
@@ -37,7 +36,6 @@ a {
     color: #EAFAF1;
 }
 
-
 #select {
     background: #17202A;
     color: #EAFAF1;
@@ -48,11 +46,11 @@ a {
 
 
 .banner-slide {
-    width: 100%;
     height: 640px;
 }
 
-/*-----------------------------------Estilos Main-----------------------------------*/
+/*-----------------------------------Estilos del Main-----------------------------------*/
+
 
 main {
     background: #EBDEF0;
@@ -83,73 +81,34 @@ main {
 }
 
 .datos {
-    padding: 0.5em;
+    padding-right: 2.5em;
+    padding-left: 2.5em;
 }
 
 .formulario {
-    margin-top: 10%;
-    width: 20em;
-    padding: 1.5em;
-    border-radius: 2em;
+    padding-top: 2.5em;
+    padding-right: 2.5em;
+    padding-left: 2.5em;
+}
+
+.formulario form {
+    padding: 0.5em;
+    border-radius: 10%;
     border: black solid;
+}
+
+.completar {
+    width: 100%;
 }
 
 .mapa {
     padding: 2.5em;
     display: flex;
-    justify-content: center ;
-}
-
-
-/*-----------------------------------Estilos del Section-----------------------------------*/
-
-
-.categorias {
-    width: 80%;
-    height: 45em;
-    margin: auto;
-/*    background: yellow;*/
-    display: flex;
-    flex-direction: column;
-}
-
-
-.titulo-publicacion {
-    width: 100%;
-    height: 5em;
-    font-size: 2em;
-/*    background: blue;*/
-    display: flex;
-    justify-content: flex-start;
-}
-
-
-.publicaciones {
-    width: 100%;
-    height: 45em;
-    margin: auto;
-    background: #fff;
-    display: flex;
-    justify-content: flex-end;
-}
-
-
-.publicaciones div {
-    width: 30%;
-    height: 35em;
-    margin: auto;
-    background: #F2F3F4;
-}
-
-.link-publicacion {
-    width: 94%;
-    margin: 0.5em;
-    margin-top: 0.5em;
-    font-size: 2em;
-    color: #000;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
+}
+
+.mapa iframe {
+    border-radius: 10%;
 }
 
 
@@ -175,7 +134,6 @@ main {
 
 .social [class^="icon-"] {
     color: #17202A;
-    /* line-height: 2em; */
     font-size: 3em;
     border-radius: 10%;
     margin-block-start: 0.3em;
