@@ -13,26 +13,26 @@ a {
 
 
 .header {
-    background: #EAFAF1;
-    padding: 2.5em;
-    display: flex;
-    justify-content: center;
+    background:#EAFAF1; 
+    display: inline-block;
+    position: relative;
 }
 
 .nav-categorias {
     width: 50%;
     display: flex;
     justify-content: space-between;
+    margin-left: 20%;
 }
 
 .nav-categorias a {
-    color: #17202A;
+    color: #0d0e0d;
     font-size: 3em;
     border-radius: 10%;
 }
 
 .nav-categorias a:hover {
-    background: #17202A;
+    background: #050607;
     color: #EAFAF1;
 }
 
@@ -54,7 +54,7 @@ a {
 
 main {
     background: #EBDEF0;
-    color: #D4AC0D;
+    color:#050607;
     font-size: 2em;
 }
 
@@ -63,7 +63,7 @@ main {
 
 
 .acerca {
-    padding: 2.5em;
+    padding: 5.5em;
     display: flex;
     justify-content: space-between;
 }

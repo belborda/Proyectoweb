@@ -53,7 +53,7 @@
 
 
 .slides-navigation a:hover {
-    background: #000;
+    background: rgb(28, 223, 21);
 }
 
 
@@ -95,5 +95,5 @@
 
 
 .slides-pagination a.current {
-  background: #222;
+  background: rgb(245, 242, 242);
 }
