@@ -22,7 +22,7 @@ a {
     width: 50%;
     display: flex;
     justify-content: space-between;
-    margin-left: 20%;
+    margin-left: 25%;
 }
 
 .nav-categorias a {
@@ -64,8 +64,14 @@ main {
 
 .acerca {
     padding: 5.5em;
-    display: flex;
-    justify-content: space-between;
+    display: inline-block;
+}
+
+.acerca div{
+display: flex;
+justify-content: space-between;
+
+
 }
 
 .parrafo { 
@@ -77,12 +83,12 @@ main {
 
 .contacto {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .datos {
-    padding-right: 2.5em;
-    padding-left: 2.5em;
+    padding-right: 5.5em;
+    padding-left: 5.5em;
 }
 
 .formulario {
@@ -92,7 +98,7 @@ main {
 }
 
 .formulario form {
-    padding: 0.5em;
+    padding: 5.5em;
     border-radius: 10%;
     border: black solid;
 }
