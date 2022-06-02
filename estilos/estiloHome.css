@@ -71,8 +71,6 @@ main {
 .acerca div{
 display: flex;
 justify-content: space-between;
-
-
 }
 
 .parrafo { 
@@ -115,7 +113,7 @@ justify-content: space-between;
 
 .footer {
     background: #EAFAF1;
-    padding: 2,5em;
+    padding: 3,5em;
     display: flex;
     justify-content: center;
     height: 100px;
@@ -140,6 +138,6 @@ justify-content: space-between;
 
 
 .social [class^="icon-"]:hover {
-    color: #EAFAF1;
-    background: #17202A;
+    color: #cf8fcc;
+    background: #f8f8f8;
 }
